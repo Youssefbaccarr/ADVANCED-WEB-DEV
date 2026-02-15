@@ -1,0 +1,417 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: antiquewhite;
+}
+
+
+header {   
+    background-color:burlywood;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav{ background-color: burlywood;
+font-size: 20px;}
+
+h1{ font-size:40px;
+text-align: center;
+text-decoration: underline;
+font-style: italic;
+font-weight: bold;}
+h2{ font-size:30px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bold;
+    }
+
+p{ font-size:20px;;
+    margin: 2px;
+    border: 5px solid burlywood;
+    margin-top: 20px;
+    }
+    
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid burlywood;
+}
+th{
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid rgb(154, 138, 138);
+}
+th:hover {
+    background-color: brown;
+}
+tr {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid  rgb(136, 123, 123);
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+td {
+    padding: 15px 10px;
+    border: 2px solid  rgb(136, 123, 123);
+}
+td:first-child {
+    font-weight: bold;
+    color: brown;
+}
+td:hover {
+    background-color: burlywood;
+    color: white;
+    font-weight: bold;
+}
+span {
+    color: darkgreen;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+}
+ul>li{
+    font-size: 20px;;
+    border: 3px solid burlywood;
+    color: black;
+    background-color: white;
+}
+a{
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+a:hover{
+    color: brown;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: burlywood;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.category-filter {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.category-filter button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    border: 2px solid burlywood;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-filter button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.category-filter button:active {
+    background-color: brown;
+    color: white;
+}
+
+table button {
+    padding: 5px 15px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+table button:hover {
+    background-color: brown;
+}
+
+section > button {
+    padding: 12px 30px;
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid brown;
+}
+
+button[onclick="checkout()"] {
+    background-color: burlywood;
+    color: white;
+}
+
+button[onclick="checkout()"]:hover {
+    background-color: brown;
+}
+
+button[onclick="clearOrder()"] {
+    background-color: white;
+    color: brown;
+}
+
+button[onclick="clearOrder()"]:hover {
+    background-color: brown;
+    color: white;
+}
+
+form{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+    background-color: burlywood;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+}
+#reset:hover{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}   
+#submit:hover{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+#aboutus{
+    text-align: center;
+}
+span{ background-color: burlywood;}
+#note{
+    font-size: 12px;
+    color: red;
+    border: none;
+    text-align: center;
+}
+#submit{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    padding: 5px;
+    border-color: brown;
+}
+#reset{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    padding: 5px;
+    border-color: brown;
+}
+
+/* Order Box */
+.order-box {
+    background-color: burlywood;
+    border: 2px solid brown;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    width: 400px;
+}
+
+.order-box h3 {
+    text-align: center;
+    color: white;
+}
+
+#orderList {
+    background-color: white;
+    color: brown;
+    padding: 10px;
+    margin: 10px 0;
+    min-height: 50px;
+    border: 1px solid brown;
+}
+
+#totalPrice {
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+}
+
+.order-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+
+.order-box button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.menu-item .description {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    border: none;
+}
+
+.menu-item .price {
+    color: brown;
+    font-weight: bold;
+    margin: 10px 0;
+    border: none;
+}
+
+.menu-item.special {
+    background-color: #ffe6cc;
+}
+
+.special-badge {
+    background-color: burlywood;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+
+.btn-add-to-order {
+    padding: 8px 15px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-add-to-order:hover {
+    background-color: brown;
+}
+
+.order-box {
+    background-color: burlywood;
+    border: 2px solid brown;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-box h3 {
+    text-align: center;
+    color: white;
+    text-shadow: none;
+}
+
+.order-list {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px 0;
+    min-height: 100px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+}
+
+.order-item .remove-btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.order-item .remove-btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.empty-message {
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+
+.order-summary {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.btn-checkout,
+.btn-clear {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-checkout {
+    background-color: white;
+    color: brown;
+}
+
+.btn-checkout:hover {
+    background-color: #fff3cd;
+}
+
+.btn-clear {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn-clear:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
